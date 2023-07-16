@@ -1,0 +1,15 @@
+#include<stdio.h>
+//program to add digits of a 4 digit number
+int main()
+{
+int n,r,sum=0;
+printf("enter the number ");
+scanf("%d",&n);
+while(n>0)
+{
+r=n%10;
+sum=sum+r;
+n=n/10;
+}
+printf("sum of digits is %d",sum);
+}
